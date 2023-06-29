@@ -5,7 +5,7 @@ public class GradeScore1 {
         Scanner pr = new Scanner(System.in);
         System.out.println("Enter your score: ");
         short score = pr.nextShort();
-
+// all
         if (score >= 0 && score <= 39) {
             System.out.println("Your grade is F");
         } else if (score >= 40 && score <= 44) {
